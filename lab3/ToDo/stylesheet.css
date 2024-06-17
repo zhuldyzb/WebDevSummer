@@ -1,0 +1,114 @@
+.top {
+    display: flex;
+    background-color: #101820;
+    padding: 12px;
+}
+
+#todo {
+    margin-left: 4px;
+    margin-top: 2px;
+    font-weight: bold;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(253, 253, 253);
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f0f0f0;
+}
+
+.panel {
+    margin: 20px auto;
+    max-width: 800px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+#title {
+    text-align: center;
+    color: #2c5c8c;
+    margin-bottom: 20px;
+}
+
+#taskInput {
+    width: calc(100% - 24px);
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 12px;
+}
+
+#addTaskBtn {
+    padding: 12px 24px;
+    font-size: 16px;
+    background-color: rgb(68, 94, 210);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#addTaskBtn:hover {
+    background-color: rgb(69, 72, 158);
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.task {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 12px;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 12px;
+}
+
+.task-done .task-text {
+    text-decoration: line-through; 
+    opacity: 0.5;
+}
+
+
+
+.task-controls {
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+
+}
+
+.task-text {
+    text-align: left;
+    flex-grow: 1;
+    margin-left: 12px;
+}
+
+.delete-btn {
+    padding: 8px 16px;
+    font-size: 14px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.delete-btn:hover {
+    background-color: darkred;
+}
+
+#buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
